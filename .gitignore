@@ -25,3 +25,9 @@ yarn-error.log*
 # firebase
 */firebase.js
 */serviceAccountKey.json
+
+# next js
+.next
+
+# IDE
+.idea

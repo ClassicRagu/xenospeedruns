@@ -8,13 +8,16 @@
     "@testing-library/user-event": "^7.2.1",
     "firebase": "^7.17.1",
     "firebase-admin": "^9.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
+    "next": "^11.0.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -32,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "next-firebase-auth": "^0.13.1"
   }
 }
