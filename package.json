@@ -1,36 +1,45 @@
 {
-  "name": "xenospeedruns",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
-    "@testing-library/user-event": "^7.2.1",
-    "firebase": "^7.17.1",
-    "firebase-admin": "^9.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+    "name": "xenospeedruns",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "5.14.1",
+        "@testing-library/react": "12.0.0",
+        "@testing-library/user-event": "13.1.9",
+        "firebase": "7.17.1",
+        "firebase-admin": "9.10.0",
+        "next": "10.2.3",
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+    },
+    "scripts": {
+        "predev": "tsc && prettier --check .",
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": "react-app"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/react": "17.0.11",
+        "next-firebase-auth": "0.13.1",
+        "prettier": "2.3.2",
+        "typescript": "4.3.4"
+    }
 }
