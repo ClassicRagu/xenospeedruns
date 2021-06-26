@@ -36,6 +36,8 @@
     ]
   },
   "devDependencies": {
-    "next-firebase-auth": "^0.13.1"
+    "@types/react": "17.0.11",
+    "next-firebase-auth": "0.13.1",
+    "typescript": "4.3.4"
   }
 }
