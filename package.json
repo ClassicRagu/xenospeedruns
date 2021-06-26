@@ -13,6 +13,7 @@
         "react-dom": "17.0.2"
     },
     "scripts": {
+        "predev": "tsc && prettier --check .",
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
